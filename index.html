@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- Your app title -->
+<title>talking tom</title>
+<!-- Path to Framework7 iOS CSS theme styles-->
+<link rel="stylesheet" href="Framework7-1.3.1/dist/css/framework7.ios.min.css">
+<!-- Path to Framework7 iOS related color styles -->
+<link rel="stylesheet" href="Framework7-1.3.1/dist/css/framework7.ios.colors.min.css">
+<!-- Path to your custom app styles-->
+<link rel="stylesheet" href="path/to/my-app.css">
+<style>
+  .demo-card-header-pic .card-header {
+    height: 80vw;
+    background-size: cover;
+	
+
+  }
+</style>
+</head>
+<body class="layout-light theme-">
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<!-- Left panel with reveal effect-->
+<div class="panel panel-left panel-reveal">
+  <div class="content-block">
+    <p>Left panel content goes here</p>
+  </div>
+</div>
+<!-- Views -->
+<div class="views"> 
+  <!-- Your main view, should have "view-main" class -->
+  <div class="view view-main"> 
+    <!-- Top Navbar-->
+    <div class="navbar">
+      <div class="navbar-inner"> 
+        <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+ 
+        <div class="center sliding"><img src="puppymatch/pup1.png"></div>
+        <div class="right"> 
+          <!-- 
+                Right link contains only icon - additional "icon-only" class
+                Additional "open-panel" class tells app to open panel when we click on this link
+              --> 
+          <a href="#" class="link icon-only open-panel"><i class="icon icon-bars-blue"></i></a> </div>
+      </div>
+    </div>
+    <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+    <div class="pages navbar-through toolbar-through"> 
+      <!-- Page, "data-page" contains page name -->
+      <div data-page="index" class="page"> 
+        <!-- Scrollable page content -->
+        <div class="page-content">
+        <div class="content-block-title">Near you!</div>
+<div class="list-block media-list">
+<div class="content-block-title">Dogs</div>
+ 
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/lucy.jpg)" valign="bottom" class="card-header color-white no-border">Daisy</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Female</p>
+      <p>age:2</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/pancho.jpg)" valign="bottom" class="card-header color-white no-border">timmy</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Male</p>
+      <p>age:2</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/percila.jpeg)" valign="bottom" class="card-header color-white no-border">Princess</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Female</p>
+      <p>age:4</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/yorkie.jpg)" valign="bottom" class="card-header color-white no-border">Sandy</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Female</p>
+      <p>age:3</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/487695829.jpg)" valign="bottom" class="card-header color-white no-border">Knightly</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Male</p>
+      <p>age:1</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/Hershey-male-yorkie-300x226.png)" valign="bottom" class="card-header color-white no-border">Pebbles</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Female</p>
+      <p>age:3</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/Beau3.jpg)" valign="bottom" class="card-header color-white no-border">Deedee</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Female</p>
+      <p>age:2</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/yorkshire-terrier-called-gigi-21170775.jpg)" valign="bottom" class="card-header color-white no-border">Bailey</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Female</p>
+      <p>age:3</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/The-beautiful-Yorkie-yorkshire-terriers-13725145-1600-1200.jpg)" valign="bottom" class="card-header color-white no-border">Buddy</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Male</p>
+      <p>age:4</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+<div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+<div class="card demo-card-header-pic">
+  <div style="background-image:url(images/Yorkshire-Terrier-Puppy.jpg)" valign="bottom" class="card-header color-white no-border">dodger</div>
+  <div class="card-content">
+    <div class="card-content-inner">
+      <p class="color-gray">Female</p>
+      <p>age:3</p>
+       <p>status:neutered</p>
+        <p>breed:yorkie terrier</p>
+         <p>location:Miami,Fl</p>
+    </div>
+  </div>
+  <div class="card-footer">
+    <a href="#" class="link">Like</a>
+    <a href="#" class="link">Read more</a>
+  </div>
+</div>
+
+      
+    <!-- Bottom Toolbar-->
+    <div class="toolbar">
+      <div class="toolbar-inner"> 
+        <!-- Toolbar links --> 
+        <a href="#" class="link">Puppie Match</a> </div>
+    </div>
+  </div>
+</div>
+<!-- Path to Framework7 Library JS--> 
+<script type="text/javascript" src="Framework7-1.3.1/dist/js/framework7.min.js"></script> 
+<!-- Path to your app js--> 
+<script type="text/javascript" src="path/to/my-app.js"></script>
+<script>
+var myapp =new Framework7();
+
+var $$ = Dom7;
+</script>
+</body>
+</html>
+
+
+<body>
+</body>
+</html>
